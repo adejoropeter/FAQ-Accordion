@@ -1,0 +1,51 @@
+@media (max-width:1099px) {
+
+      body {
+            /* background-image: none; */
+            padding: 2rem;
+            min-height: 100vh;
+      }
+
+      main {
+            flex-direction: column;
+            overflow: visible;
+            padding: 2rem;
+            width:350px;
+            position: relative;
+      }
+
+      h1 {
+            text-align: center;
+      }
+
+      #container {
+            padding: 0;
+            width: 100%;
+      }
+
+      .img2 {
+            /* display: none; */
+            top: -50px;
+            left: -50px;
+            width: 80px;
+      }
+
+    
+
+      div img.img {
+            width: 250px;
+            margin: -130px -50px  50px;
+            
+             display: block;
+             text-align: center;
+             transform: rotate(0deg);
+            /* margin: auto; */
+            
+      }
+
+      #component .question, #customise .question, #compos .question, #compos2 .question, #compos3 .question {
+            font-size: 1.5rem;
+            letter-spacing: 0;
+            font-weight: bold;
+      }
+}

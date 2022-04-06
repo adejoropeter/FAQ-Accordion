@@ -1,0 +1,138 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+html {
+      font-size: 62.5%;
+}
+
+body {
+      height: 100vh;
+      background-image: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+
+main {
+      background-color: hsl(240, 5%, 91%);
+      border-radius: 2rem;
+      width: 1000px;
+      height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 2rem;
+      overflow: hidden;
+}
+
+.div {
+      width: 50%;
+      position: relative;
+}
+
+.img2 {
+      position: absolute;
+      top: 160px;
+      left: -70px;
+      /* z-index: 10; */
+}
+
+div img.img {
+      width: 500px;
+      object-fit: cover;
+      margin: 0 0 0 -80px;
+}
+
+h1 {
+      margin-bottom: 20px;
+}
+
+#container {
+      /* margin-right: 4rem; */
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 4rem 0;
+      /* align-items: flex-start; */
+}
+
+#compo {
+      width: 100%;
+}
+
+.line, .lines, .line1, .line2, .line3 {
+      
+      border-bottom: 1px solid hsl(240, 6%, 50%);
+      margin-bottom: 3rem;
+}
+
+#component, #customise, #compos, #compos2, #compos3 {
+      /* pointer-events: none; */
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      cursor: pointer;
+      /* padding-bottom: 10px; */
+}
+
+#component .question, #customise .question, #compos .question, #compos2 .question, #compos3 .question {
+      color: hsl(237, 12%, 33%);
+      font-size: 1.8rem;
+      letter-spacing: .2rem;
+      font-weight: 500;
+}
+
+#component .question:active, #customise .question:active, #compos .question:active, #compos2 .question:active, #compos3 .question:active {
+      color: hsl(14, 88%, 65%);
+}
+
+#component img, #customise img, #compos img, #compos2 img, #compos3 img {
+      width: 10px;
+      height: 10px;
+      transition: all .5s ease-in-out;
+      object-fit: cover;
+}
+
+.font {
+      font-weight: 900;
+}
+
+.hide {
+      display: none;
+}
+
+.rotate {
+      transform: rotate(180deg);
+      transition: transform .5s ease-in;
+}
+
+.line p, .lines p, .line1 p, .line2 p, .line3 p {
+      color: hsl(240, 6%, 50%);
+      line-height: 25px;
+      text-align: center;
+      font-size: 2rem;
+      transition: all .5s ease-in-out;
+      /* display: none; */
+      padding-bottom: 10px;
+}
+
+
+
+
+/* COLORS  */
+/* 
+- Soft violet: hsl(273, 75%, 66%)  
+
+Soft blue: hsl(240, 73%, 65%) 
+- Very dark grayish blue: hsl(237, 12%, 33%)
+- Dark grayish blue: hsl(240, 6%, 50%)
+- Light grayish blue: hsl(240, 5%, 91%)
+- Soft red: hsl(14, 88%, 65%)
+*/
